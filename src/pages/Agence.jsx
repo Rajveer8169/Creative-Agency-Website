@@ -53,7 +53,7 @@ useGSAP(() => {
 
   return (
     <div className='overflow-visible'>
-         <div className='section1 py-1'>
+         <div className='section1 py-1 relative'>
    <div ref={imageDivRef} className='absolute overflow-hidden lg:h-[20vw] h-[30vw] lg:rounded-3xl rounded-xl lg:top-20 left-[30vw]'>
     <img ref={imageRef} className='h-full w-full object-cover' src={imageArray[0]}></img>
    </div>
