@@ -1,12 +1,15 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Creative Agency Website (Inspired by K72)
+Personal Project | React, Tailwind CSS, GSAP, Vite
 
-Currently, two official plugins are available:
+Designed and developed a modern creative agency-style website with smooth animations and responsive layouts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Implemented GSAP & ScrollTrigger for interactive animations and engaging user experience.
 
-## Expanding the ESLint configuration
+Built reusable React components for scalability and clean code architecture.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styled using Tailwind CSS with custom themes for a sleek, professional design.
+
+Optimized performance with Vite build tool, ensuring fast load times and smooth navigation.
+
+Showcased branding, design, and front-end development skills by creating a visually striking, agency-grade site.

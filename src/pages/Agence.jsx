@@ -30,6 +30,10 @@ useGSAP(() => {
   gsap.to(imageDivRef.current, {
     scrollTrigger: {
       trigger: imageDivRef.current,
+<<<<<<< HEAD
+=======
+    
+>>>>>>> a9ccc6d60e932fe249c4294c686ed2eb8ad8f207
       start: 'top 5%',
       end: 'bottom -140%',
       pin: true,
