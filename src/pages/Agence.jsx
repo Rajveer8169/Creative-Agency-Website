@@ -9,27 +9,27 @@ const Agence = () => {
   const imageRef = useRef(null)
   gsap.registerPlugin(ScrollTrigger)
   const imageArray = [
-    'https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/Olivier_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/Lawrence_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/HugoJoseph_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/ChantalG_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/MyleneS_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/SophieA_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/Claire_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/Michele_480X640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/MEL_480X640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/CAMILLE_480X640_2-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/MAXIME_480X640_2-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/MEGGIE_480X640_2-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/joel_480X640_3-480x640.jpg'
-  ]
+  '/team/Carl.jpg',
+  '/team/Oliver.jpg',
+  '/team/Lawrence.jpg',
+  '/team/HugoJoseph.jpg',
+  '/team/ChantalG.jpg',
+  '/team/MyleneS.jpg',
+  '/team/SophieA.jpg',
+  '/team/Claire.jpg',
+  '/team/Michele.jpg',
+  '/team/MEL.jpg',
+  '/team/CAMILLE.jpg',
+  '/team/MAXIME.jpg',
+  '/team/MEGGIE.jpg',
+  '/team/Joel.jpg'
+];
+
 
 useGSAP(() => {
   gsap.to(imageDivRef.current, {
     scrollTrigger: {
       trigger: imageDivRef.current,
-      markers: true,
       start: 'top 5%',
       end: 'bottom -140%',
       pin: true,

@@ -9,29 +9,29 @@ const Projects = () => {
  
 
   const projects = [{
-    image1:'https://k72.ca/uploads/caseStudies/PJC/Thumbnails/PJC_SiteK72_Thumbnail_1280x960-1280x960.jpg',
-    image2:'https://k72.ca/uploads/caseStudies/WIDESCAPE/WS---K72.ca---Thumbnail-1280x960.jpg'
+    image1:'/project_pics/bag.jpg',
+    image2:'/project_pics/pic2.jpg'
   },{
-    image1:'https://k72.ca/uploads/caseStudies/OKA/OKA_thumbnail-1280x960.jpg',
-    image2:'https://k72.ca/uploads/caseStudies/Opto_Reseau_Brand/opto_thumbnail2-1280x960.jpg'
+    image1:'/project_pics/pic3.jpg',
+    image2:'/project_pics/pic4.jpg'
   },{
-    image1:'https://k72.ca/uploads/caseStudies/COUP_FUMANT/CF_thumbnail-1280x960.jpg',
-    image2:'https://k72.ca/uploads/caseStudies/SHELTON/thumbnailimage_shelton-1280x960.jpg'
+    image1:'/project_pics/pic5.jpg',
+    image2:'/project_pics/pic6.jpg'
   },{
-    image1:'https://k72.ca/uploads/caseStudies/BEST/BEST_site_Thumbnail-1280x960.jpg',
-    image2:'https://k72.ca/uploads/caseStudies/A_table/thumbnailimage_atable2-1280x960.jpg'
+    image1:'/project_pics/pic7.jpg',
+    image2:'/project_pics/pic8.jpg'
   },{
-    image1:'https://k72.ca/uploads/caseStudies/SollioAg/thumbnailimage_SollioAg-1280x960.jpg',
-    image2:'https://k72.ca/uploads/caseStudies/LAMAJEURE_-_Son_sur_mesure/chalaxeur-thumbnail_img-1280x960.jpg'
+    image1:'/project_pics/pic9.jpg',
+    image2:'/project_pics/pic10.jpg'
   },{
-    image1:'https://k72.ca/uploads/caseStudies/OSM/thumbnailimage_OSM-1280x960.jpg',
-    image2:'https://k72.ca/uploads/caseStudies/BAnQ_100TEMPS/100temps_Thumbnail-1280x960.jpg'
+    image1:'/project_pics/pic11.jpg',
+    image2:'/project_pics/pic12.jpg'
   },{
-    image1:'https://k72.ca/uploads/caseStudies/CRISIS24/crisis24_behance_1920X1200_cartes-1280x960.jpg',
-    image2:'https://k72.ca/uploads/caseStudies/Opto/thumbnailimage_opto-1280x960.jpg'
+    image1:'/project_pics/pic13.jpg',
+    image2:'/project_pics/pic14.jpg'
   },{
-    image1:'https://k72.ca/uploads/caseStudies/PME-MTL/PME-MTL_Thumbnail-1280x960.jpg',
-    image2:'https://k72.ca/uploads/caseStudies/FRUITE/Fruite_thumbnail_bbq-1280x960.jpg'
+    image1:'/project_pics/pic15.jpg',
+    image2:'/project_pics/pic16.jpg'
   }]
 
   gsap.registerPlugin(ScrollTrigger)

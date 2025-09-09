@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App'
 import { BrowserRouter } from 'react-router-dom'
-import Stairs from './components/common/stairs'
+import Stairs from './components/common/Stairs'
 import Context from './context/Context'
 
 
